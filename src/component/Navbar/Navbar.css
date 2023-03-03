@@ -1,0 +1,96 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+nav svg{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+nav svg:hover{
+    color: var(--colro1);
+}
+nav .headersection1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+/* Search bar */
+nav .searchBar{
+    display: flex;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 5px;
+    justify-content: space-between;
+    width: 30%;
+}
+nav .searchBar input{
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+}
+nav .searchBar svg{
+    color: var(--colro1);
+}
+nav .searchBar svg:hover{
+    background-color: var(--colro1);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+nav .searchBar button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+nav .headersection1 .iconsBox{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+nav .cartIcon{
+    position: relative;
+    margin: 0px 20px;
+}
+nav .cartIcon .cartQuaintity {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: var(--colro1);
+    left: 17px;
+    top: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+}
+
+nav .headersection2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+}
+nav .headersection2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+nav .headersection2 a:hover{
+    color: var(--colro1) !important;
+}
