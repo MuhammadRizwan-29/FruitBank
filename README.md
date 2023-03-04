@@ -1,11 +1,28 @@
-# Getting Started with Create React App
+# Grocery Website Design in Raect JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project contains HTML, CSS, and Raect Components Level Hierarchy
 
-## Available Scripts
+## Day 01 Challange
 
-In the project directory, you can run:
+To create Header Section
 
+## Day 02 Challange
+
+To create Slider Section
+
+## Day 03 Challange
+
+To create Product Categories 
+
+## Day 04 Challange
+
+To create All Product Section
+
+## Day 05 Challange
+
+To create Footer Section
+
+###-----------------------------------------------------------------------
 ### `npm start`
 
 Runs the app in the development mode.\
